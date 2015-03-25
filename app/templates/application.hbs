@@ -1,3 +1,29 @@
-<h2 id="title">Welcome to Ember.js</h2>
 
-{{outlet}}
+  <div class="title">
+    <h1>DOUG BENNETT</h1>
+
+  </div>
+  <div class="main-container">
+      <center>
+        {{#link-to 'about'}}
+        <div class="nav">
+            About Me
+        </div>
+        {{/link-to}}
+
+        {{#link-to 'resume'}}
+        <div class="nav">
+            Resume
+        </div>
+        {{/link-to}}
+
+        {{#link-to 'projects'}}
+        <div class="nav">
+            Projects
+        </div>
+        {{/link-to}}
+      </center>
+      <div class="route-containers">
+        {{outlet}}
+      </div>
+  </div>

@@ -1,0 +1,69 @@
+html{
+  font-family: 'arial';
+  color:white;
+  background: url('http://www.hdwallpapersinn.com/wp-content/uploads/2014/11/1569474.jpg');
+  background-size:100vw 200vh;
+}
+.main-container {
+  width:70%;
+  border-radius:3em;
+  box-shadow: 0 0 10em black inset;
+  height:100%;
+  margin:0 15% 0 15%;
+  background-color:rgba(0,0,0,0.05);
+}
+
+.title{
+  text-align:center;
+  margin-top:5%;
+}
+
+.route-containers{
+  padding:4% 5% 5% 7%;
+}
+
+.sidebar{
+  width:30%;
+  float: left;
+}
+
+.other{
+  width:70%;
+  float:left;
+}
+
+:active{
+  /*color:white*/
+}
+:link, :visited{
+  color:black;
+  font-family: 'arial';
+  font-weight:bold;
+}
+.nav{
+  border-radius:.25em;
+  box-shadow: 0 0 2em black inset;
+  height:%;
+  background:white;
+  vertical-align:bottom;
+  width:33%;
+  display:inline-block;
+}
+.nav:hover{
+  color:black;
+  box-shadow: 0 0 2em yellow;
+}
+
+
+.project-image {
+  float:left;
+  width:30%;
+}
+
+.project-description {
+  padding-top:2em;
+  vertical-align:middle;
+  float:left;
+  width:70%;
+  height:13em;
+}
