@@ -7,5 +7,5 @@ export default DS.Model.extend({
   url: DS.attr('string'),
   status: DS.attr('string'),
   features: DS.attr('array'),
-  authorization: DS.attr('boolean')
+  administrator: DS.attr('boolean')
 });

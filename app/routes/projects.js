@@ -43,7 +43,9 @@ export default Ember.Route.extend({
       thumbnail: 'assets/images/rantly.png',
       url: 'http://rantly-app.herokuapp.com/',
       status: 'assets/images/in-development.png',
-      features: [],
+      features: [
+        'do stuff'
+      ],
       administrator: true
     });
 

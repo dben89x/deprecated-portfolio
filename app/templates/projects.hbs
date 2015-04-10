@@ -6,12 +6,16 @@
 <div class="project-description">
   {{description}}
 
-  <br><br>Users can:
-  {{#each feature in features}}
-  <li>{{feature}}</li>
-  {{/each}}
+  {{#if features}}
+    <br><br>Users can:
+    {{#each feature in features}}
+      <li>{{feature}}</li>
+    {{/each}}
+  {{/if}}
 
-  <br>Log in as "d@b.com" with password "1234" for administrative rights to full project
+  {{#if administrator}}
+    <br>Log in as "d@b.com" with password "1234" for administrative rights to full project
+  {{/if}}
 </div>
 <hr style='width:100%;'>
 {{/each}}
