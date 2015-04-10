@@ -8,10 +8,7 @@ html{
   background-position: center center;
 }
 .main-container {
-  background-color:rgba(0,0,0,.4);
   width:70%;
-  border-radius:2em 0 2em 0;
-  box-shadow: 0 0 10em black inset, 0 0 10em black;
   height:100%;
   margin:0 15% 0 15%;
 }
@@ -69,4 +66,7 @@ html{
   float:left;
   width:70%;
   height:13em;
+}
+.email-link a {
+  color:white;
 }
