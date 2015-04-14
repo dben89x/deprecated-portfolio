@@ -12,7 +12,7 @@ export default Ember.Route.extend({
       features: [
         'CRUD projects and CRUD tasks within projects',
         'Comment on tasks',
-        'Manage memberships for projects, with different levels of administrator',
+        'Manage memberships for projects, with different access levels',
         'Filters visible information based on administrator',
         'Link to Pivotal Tracker API'
       ],
