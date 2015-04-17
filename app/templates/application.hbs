@@ -1,29 +1,29 @@
-  <div class="title">
+  <div class="navbars1">
     <h1 style='font-family:fantasy'>DOUG BENNETT</h1>
-    <<h2 style='margin-top:-10px;font-family:Orbitron'>Full Stack Developer</h2>
-
+    <<h2 style='font-family:Orbitron'>Full Stack Developer</h2>
   </div>
   <div class="main-container">
+    <div class="navbars2">
+
       <center>
         {{#link-to 'about'}}
-        <div class="nav">
+        <div class="navs">
             About Me
         </div>
         {{/link-to}}
 
         {{#link-to 'resume'}}
-        <div class="nav">
+        <div class="navs">
             Resume
         </div>
         {{/link-to}}
 
         {{#link-to 'projects'}}
-        <div class="nav">
+        <div class="navs">
             Projects
         </div>
         {{/link-to}}
       </center>
-      <div class="route-containers">
-        {{outlet}}
-      </div>
+    </div>
+      {{outlet}}
   </div>

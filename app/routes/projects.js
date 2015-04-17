@@ -36,18 +36,18 @@ export default Ember.Route.extend({
       administrator: true
     });
 
-    this.store.push('project', {
-      id: 3,
-      title: 'Rantly',
-      description: 'AngularJS app with a Rails API where one can "rant" about whatever he or she wishes',
-      thumbnail: 'assets/images/rantly.png',
-      url: 'http://rantly-app.herokuapp.com/',
-      status: 'assets/images/in-development.png',
-      features: [
-        'do stuff'
-      ],
-      administrator: true
-    });
+    // this.store.push('project', {
+    //   id: 3,
+    //   title: 'Rantly',
+    //   description: 'AngularJS app with a Rails API where one can "rant" about whatever he or she wishes',
+    //   thumbnail: 'assets/images/rantly.png',
+    //   url: 'http://rantly-app.herokuapp.com/',
+    //   status: 'assets/images/in-development.png',
+    //   features: [
+    //     'do stuff'
+    //   ],
+    //   administrator: true
+    // });
 
     this.store.push('project', {
       id: 4,

@@ -8,51 +8,66 @@ html{
   background-repeat: no-repeat;
   background-position: center center;
 }
-.main-container {
-  width:70%;
-  height:100%;
-  margin:0 15% 0 15%;
+.pics{
+  border-radius:200px;
+  box-shadow:.5px .5px 10em .02em rgba(0, 160, 253,.5);
 }
-
+.main-container {
+  margin:0 9% 0 15%;
+}
 .title{
   text-align:center;
   margin-top:5%;
 }
-
 .route-containers{
-  padding:4% 5% 5% 7%;
+  height:70vh;
+  margin-top:7%;
+  overflow:scroll;
+  padding:5% 5% 5% 10%;
 }
-
-.sidebar{
+.about-sidebar{
   width:30%;
   float: left;
 }
-
-.other{
-  width:70%;
-  float:left;
-}
-
-:active{
-  /*color:white*/
-}
-:link, :visited{
-  color:black;
+:link{
   font-family: 'Orbitron';
   font-weight:bold;
 }
-.nav{
-  border-radius:.25em;
-  box-shadow: 0 0 2em black inset;
-  background:white;
+.navbars1{
+  height:100%;
+  position:fixed;
+  width:20%;
+}
+.navbars2{
+  margin-top:-1.7%;
+  margin-left:5%;
+  position:fixed;
+  width:70%;
+  float:left;
+}
+.navs{
+  color:white;
+  background: linear-gradient( rgba(255, 255, 255, 0), rgba(255, 255, 255, .1) );
+  border-radius:3em 3em 0 0;
+  box-shadow: 0 10px 1em rgba(0,0,0,0) inset;
+  /*background:rgba(255,255,255,.5);*/
   vertical-align:bottom;
   width:33%;
   display:inline-block;
   margin:-2px;
 }
-.nav:hover{
-  color:black;
-  box-shadow: 0 0 2em yellow;
+.navs:active{
+  color:white;
+  text-shadow: 2px 2px black;
+  box-shadow: 0 -6px 6px 0px rgb(0, 160, 253) inset;
+  background: linear-gradient( rgba(255, 255, 255, 0), rgba(255, 255, 255, .5) );
+}
+.navs:hover{
+  color:white;
+  text-shadow: 2px 2px black;
+  box-shadow: 0 -6px 6px 0px rgb(0, 160, 253) inset;
+  /*box-shadow: inset 0 -1px rgb(0, 204, 255);*/
+  background: linear-gradient( rgba(255, 255, 255, 0), rgba(255, 255, 255, .5) );
 }
 
 .project-image {

@@ -1,7 +1,9 @@
+<div class="route-containers">
 {{#each model}}
+
 <div class="project-image">
   <h2>{{title}} <img {{bind-attr src=status}} style='width:1em;margin-left:.5em'></h2>
-  <a {{bind-attr href=url}} target='_blank'><img {{bind-attr src=thumbnail}} alt="Doug"style='width:15em'/></a>
+  <a {{bind-attr href=url}} target='_blank'><img {{bind-attr src=thumbnail}} alt="Doug"style='width:15em;height:10em'/></a>
 </div>
 <div class="project-description">
   {{description}}
@@ -19,3 +21,4 @@
 </div>
 <hr style='width:100%;'>
 {{/each}}
+</div>
