@@ -23,7 +23,7 @@ html{
   height:70vh;
   margin-top:7%;
   overflow:scroll;
-  padding:5% 5% 5% 10%;
+  padding:5% 5% 5% 15%;
 }
 .about-sidebar{
   width:30%;
@@ -40,7 +40,7 @@ html{
 }
 .navbars2{
   margin-top:-1.7%;
-  margin-left:5%;
+  margin-left:6%;
   position:fixed;
   width:70%;
   float:left;
