@@ -9,7 +9,7 @@ html{
   background-position: center center;
 }
 .pics{
-  border-radius:200px;
+  border-radius:50%;
   box-shadow:.5px .5px 10em .02em rgba(0, 160, 253,.5);
 }
 .main-container {
