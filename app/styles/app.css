@@ -13,7 +13,7 @@ html{
   box-shadow:.5px .5px 10em .02em rgba(0, 160, 253,.5);
 }
 .main-container {
-  margin:0 9% 0 15%;
+  margin:0 9% 0 17%;
 }
 .title{
   text-align:center;
@@ -23,7 +23,7 @@ html{
   height:70vh;
   margin-top:7%;
   overflow:scroll;
-  padding:5% 5% 5% 15%;
+  padding:5% 5% 10% 15%;
 }
 .about-sidebar{
   width:30%;
@@ -36,7 +36,7 @@ html{
 .navbars1{
   height:100%;
   position:fixed;
-  width:20%;
+  width:22%;
 }
 .navbars2{
   margin-top:-1.7%;
@@ -48,13 +48,14 @@ html{
 .navs{
   color:white;
   background: linear-gradient( rgba(255, 255, 255, 0), rgba(255, 255, 255, .1) );
+  margin:0 -2px 0 -2px;
+  padding-top:2px;
   border-radius:3em 3em 0 0;
   box-shadow: 0 10px 1em rgba(0,0,0,0) inset;
   /*background:rgba(255,255,255,.5);*/
   vertical-align:bottom;
   width:33%;
   display:inline-block;
-  margin:-2px;
 }
 .navs:active{
   color:white;
