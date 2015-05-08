@@ -82,3 +82,11 @@ html{
 .email-link a {
   color:white;
 }
+.good{
+  float:right;
+  color:rgb(0, 255, 255);
+}
+.decent{
+  float:right;
+  color:#f5a61b;
+}
