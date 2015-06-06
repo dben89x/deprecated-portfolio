@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('about');
   this.route('resume');
   this.route('projects');
+  // this.route('solarsystem');
 });
 
 export default Router;
