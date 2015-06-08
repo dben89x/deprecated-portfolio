@@ -14,8 +14,8 @@ var App = Ember.Application.extend({
 Ember.Handlebars.registerHelper("profBars", function(proficiency) {
   var bars = '';
   for (var i = 0; i < proficiency; i++) {
-    bars += '|'
-  };
+    bars += '|';
+  }
   return bars;
 });
 
