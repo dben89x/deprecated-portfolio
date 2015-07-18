@@ -1,24 +1,24 @@
 <div class="route-containers">
-{{#each model}}
+  {{#each model}}
 
-<div class="project-image">
-  <h2>{{title}} <img {{bind-attr src=status}} style='width:1em;margin-left:.5em'></h2>
-  <a {{bind-attr href=url}} target='_blank'><img {{bind-attr src=thumbnail}} alt="Doug"style='width:90%;height:60%'/></a>
-</div>
-<div class="project-description">
-  {{description}}
+  <div class="project-image">
+    <h2>{{title}} <img {{bind-attr src=status}} style='width:1em;margin-left:.5em'></h2>
+    <a {{bind-attr href=url}} target='_blank'><img {{bind-attr src=thumbnail}} alt="Doug"style='width:90%;height:60%'/></a>
+  </div>
+  <div class="project-description">
+    {{description}}
 
-  {{#if features}}
-    <br><br>Users can:
-    {{#each feature in features}}
-      <li>{{feature}}</li>
-    {{/each}}
-  {{/if}}
+    {{#if features}}
+      <br><br>Users can:
+      {{#each feature in features}}
+        <li>{{feature}}</li>
+      {{/each}}
+    {{/if}}
 
-  {{#if administrator}}
-    <br>Log in as "d@b.com" with password "1234" for administrative rights to full project
-  {{/if}}
-</div>
-<hr style='width:100%;'>
-{{/each}}
+    {{#if administrator}}
+      <br>Log in as "d@b.com" with password "1234" for administrative rights to full project
+    {{/if}}
+  </div>
+  <hr style='width:100%;'>
+  {{/each}}
 </div>

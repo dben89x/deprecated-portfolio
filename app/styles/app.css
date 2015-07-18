@@ -8,9 +8,51 @@ html{
   -o-background-size: cover;
   background-size: cover;
 }
+.heading-name{
+  font-family:fantasy;
+  text-align:center;
+  margin-bottom:0;
+  padding-left:5%;
+  width:90%;
+  font-size:2.2vw;
+}
+.resume-header{
+  padding-left:2em;
+}
+.resume-container{
+  padding-left:20%;
+}
+.resume-skills-ul{
+  width:58%;
+}
+.header-hr{
+  margin-right:35%;
+}
+.email-and-phone{
+  margin-right:10%;
+  font-size:1.5vw;
+}
+.resume-frameworks-ul{
+  display:inline-block;
+  width:63.3%;
+}
+.heading-title{
+  font-family:'Orbitron';
+  text-align:center;
+  font-size:1.6vw;
+}
+.other{
+  width:90%;
+  height:60%
+}
+.links{
+  margin-left:14%;
+}
 .pics{
   border-radius:50%;
   box-shadow:.5px .5px 10em .02em rgba(0, 160, 253,.5);
+  width:75%;
+  margin-left:14%
 }
 .main-container {
   margin:0% 9% 0 17%;
@@ -89,4 +131,67 @@ html{
 .decent{
   float:right;
   color:#f5a61b;
+}
+
+@media (max-width: 800px){
+  .navbars1{
+    display:inline-block;
+    border:none;
+    position:initial;
+    width:100%
+  }
+  .navbars2{
+    margin-left:0;
+    width:100%;
+  }
+  .navs{
+    width:33%;
+  }
+  .other{
+    width:100%;
+    float:right;
+  }
+  .heading-name, .heading-title{
+    text-align:right;
+    font-size:30px;
+  }
+  .main-container{
+    margin:0;
+  }
+  .pics{
+    width:200px;
+    margin-left:0;
+    float:left;
+  }
+  .route-containers{
+    padding:15px;
+    margin-top:11%;
+    height:55vh;
+  }
+  .resume-container{
+    padding:0;
+  }
+  .resume-skills-ul, .resume-frameworks-ul{
+    width:70%;
+  }
+  .header-hr{
+    margin-right:15%;
+  }
+  .email-and-phone{
+    display: none;
+  }
+  .project-image, .project-description{
+    width:90%;
+    margin-left:20px;
+  }
+}
+@media (max-width:500px){
+  .route-containers{
+    height:90vw;
+  }
+}
+@media (max-width:400px){
+  .route-containers{
+    height:100vw;
+  }
 }
