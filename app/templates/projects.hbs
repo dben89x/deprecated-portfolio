@@ -2,14 +2,25 @@
   {{#each model}}
 
   <div class="project-image">
-    <h2>{{title}} <img {{bind-attr src=status}} style='width:1em;margin-left:.5em'></h2>
+    <h2>{{title}} <img {{bind-attr src=status}} class='project-tooltip tooltip' title={{statusText}} style='width:1em;margin-left:.5em'></h2>
     <a {{bind-attr href=url}} target='_blank'><img {{bind-attr src=thumbnail}} alt="Doug"style='width:90%;height:60%'/></a>
   </div>
   <div class="project-description">
     {{description}}
+    <br>
+    <div class="project-technology">
+      Technologies used:
+      <br>
+      {{#each technology in technologies}}
+        <span {{bind-attr style=technology.color}}>
+          {{technology.title}}
+          <br>
+        </span>
+      {{/each}}
+    </div>
 
     {{#if features}}
-      <br><br>Users can:
+      <br>Users can:
       {{#each feature in features}}
         <li>{{feature}}</li>
       {{/each}}

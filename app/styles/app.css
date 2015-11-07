@@ -122,6 +122,9 @@ html{
   float:left;
   width:70%;
 }
+.project-technology{
+  color: #00C0FF;
+}
 .email-link a {
   color:white;
 }
