@@ -2,11 +2,12 @@ html{
   font-family: 'Cantarell';
   color:white;
 
-  background: url('http://www.hdwallpapersinn.com/wp-content/uploads/2014/11/1569474.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
+  background-image: url('images/soft_kill.png');
+  background-position: center;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 .heading-name{
   font-family:fantasy;
